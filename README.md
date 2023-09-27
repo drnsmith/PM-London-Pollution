@@ -1,5 +1,8 @@
 # London Air Pollution Prediction
 
+# London Air Pollution Prediction
+![Pollution](https://github.com/drnsmith/PM-Auckland-Pollution/blob/main/jan-antonin-kolar-Px1DLXKhzNc-unsplash.jpg?raw=true)
+
 This project aims to develop and optimize predictive models for air pollution levels, specifically PM10 concentrations, in London. Various regression techniques are utilized to make accurate predictions, and the models' performances are evaluated using the Root Mean Squared Error (RMSE) metric.
 
 ## Table of Contents
