@@ -3,7 +3,9 @@
 ![Pollution](pollution_london.jpg)
 
 
-This project aims to develop and optimise predictive models for air pollution levels, specifically PM10 concentrations, in London. Our goal is to develop accurate machine learning (ML) models that can forecast these emissions based on various environmental and monitoring data. Various ML techniques are utilised to make accurate predictions, and the models' performances are evaluated using the Root Mean Squared Error (RMSE) metric.  
+This project aims to develop and optimise predictive models for air pollution levels, specifically PM10 concentrations, in London. Our goal is to develop accurate machine learning (ML) models that can forecast these emissions based on various environmental and monitoring data. Various ML techniques are utilised to make accurate predictions, and the models' performances are evaluated using the Root Mean Squared Error (RMSE) metric.  This project is based on "London Atmospheric Emissions Inventory 2013" dataset, which is publicly available. Access the following URL:
+
+https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2013 
 
 ## Project Tasks
 To complete this project, the following tasks were undertaken, we:
@@ -21,7 +23,6 @@ To complete this project, the following tasks were undertaken, we:
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Dataset](#dataset)
 - [Models Implemented](#models-implemented)
 - [Optimisation and Evaluation](#optimization-and-evaluation)
 - [Results](#results)
@@ -37,9 +38,4 @@ To get a local copy up and running, follow these simple steps:
 git clone https://github.com/your-username/london-air-pollution-prediction.git
 cd london-air-pollution-prediction
 
-
-## Dataset
-This project is based on "London Atmospheric Emissions Inventory 2013" dataset, which is publicly available. Access the following URL:
-
-https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2013
 
