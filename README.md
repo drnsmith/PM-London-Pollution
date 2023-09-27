@@ -1,4 +1,3 @@
-# London Air Pollution Prediction
 
 # London Air Pollution Prediction
 ![Pollution](pollution_london.jpg)
