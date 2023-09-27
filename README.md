@@ -36,3 +36,10 @@ To get a local copy up and running, follow these simple steps:
 ```bash
 git clone https://github.com/your-username/london-air-pollution-prediction.git
 cd london-air-pollution-prediction
+
+
+## Dataset
+This project is based on "London Atmospheric Emissions Inventory 2013" dataset, which is publicly available. Access the following URL:
+
+https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2013
+
