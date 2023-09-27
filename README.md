@@ -1,6 +1,6 @@
 # London Air Pollution Prediction
 
-This project aims to develop and optimize predictive models for air pollution levels, specifically PM10 concentrations, in London. Various regression techniques are utilized to make accurate predictions, and the models' performances are evaluated using the Root Mean Squared Error (RMSE) metric.
+This project aims to develop and optimise predictive models for air pollution levels, specifically PM10 concentrations, in London. Various regression techniques are utilised to make accurate predictions, and the models' performances are evaluated using the Root Mean Squared Error (RMSE) metric.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
