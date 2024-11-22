@@ -1,4 +1,4 @@
-# London Air Pollution Prediction (PM10 Levels)
+# Prediction of Air Pollution (PM10 Levels) in London, UK, using machine learning 
 
 ## Project Overview
 
