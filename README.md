@@ -39,23 +39,6 @@ Air pollution is a significant global challenge, affecting public health, qualit
 
 5. **Model Comparison**:
    - Compared RMSE values to identify the best-performing model.
-
----
-
-### **Results**
-
-| **Model**              | **RMSE**  |
-|-------------------------|-----------|
-| Linear Regression       | 21.45     |
-| Ridge Regression        | 18.32     |
-| Lasso Regression        | 17.89     |
-| Random Forest           | 15.67     |
-| Gradient Boosting       | 14.89     |
-| **XGBoost**             | **12.34** |
-
-- **XGBoost** achieved the lowest RMSE, making it the most accurate model for predicting PM10 concentrations.
-- Potential for improvement exists through additional hyperparameter tuning and more sophisticated feature engineering.
-
 ---
 
 #### **How to Run**
@@ -79,11 +62,6 @@ python preprocess.py
 ```bash
 python train.py
 ```
-5. View Results:
-
-Model performance metrics and visualisations are saved in the `results/ directory`.
-
-
 ### Prerequisites
 - **Python 3.x**: Ensure Python is installed. 
 - **Dependencies**: Install the required libraries listed in `requirements.txt` by running the following command:
@@ -121,11 +99,6 @@ Submit your changes to the main repository by opening a pull request (PR). Ensur
 I will review your PR and may suggest improvements before merging it into the main branch.
 
 Thank you for your interest in contributing!
-
-#### Visualisations
- - **Feature Importance:** Highlighted the most influential variables affecting PM10 concentrations.
- - **Correlation Heatmap:** Explored relationships between features and PM10 levels.
- - **Model Comparison:** Plotted RMSE values for all models for clear comparison.
 
 ### Acknowledgments
 Special thanks to the dataset contributors for providing detailed environmental data.
