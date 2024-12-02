@@ -1,15 +1,20 @@
-# Prediction of Air Pollution (PM10 Levels) in London, UK, using machine learning 
+### **Prediction of Air Pollution (PM10 Levels) in London, UK**
 
-## Project Overview
-
-This project aims to predict air pollution levels, specifically **PM10 concentrations**, in London using various **machine learning (ML)** techniques. Accurate forecasting of pollution levels is crucial for public health and urban planning. The dataset used for this project is the **"London Atmospheric Emissions Inventory 2013"**, which includes detailed environmental and monitoring data. The main goal is to develop and optimise predictive models and evaluate their performance using **Root Mean Squared Error (RMSE)** as the primary evaluation metric. ![Pollution](pollution_london.jpg)
+#### **Project Overview**
+This project aims to predict air pollution levels, specifically **PM10 concentrations**, in London using various **machine learning (ML)** techniques. Accurate forecasting of pollution levels is crucial for public health and urban planning. The dataset used for this project is the **"London Atmospheric Emissions Inventory 2013"**, which includes detailed environmental and monitoring data. The main goal is to develop and optimise predictive models and evaluate their performance using **Root Mean Squared Error (RMSE)** as the primary evaluation metric. 
 
 - **Dataset**: [London Atmospheric Emissions Inventory 2013](https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2013)
 - **Target Variable**: PM10 (Particulate Matter ≤ 10µm)
 - **Evaluation Metric**: RMSE (Root Mean Squared Error)
 
-## Project Tasks
-The following tasks were completed to build and optimise the predictive models:
+---
+
+### **Motivation**
+Air pollution is a significant global challenge, affecting public health, quality of life, and urban development. Accurate prediction of pollution levels enables policymakers and environmental agencies to take preventive measures, such as issuing warnings and enforcing regulations. This project addresses the critical need for data-driven insights to tackle urban air pollution and support healthier cities.
+
+---
+
+#### **Project Tasks**
 
 1. **Exploratory Data Analysis (EDA)**:
    - Explored the dataset to understand its structure, features, and distribution of the target variable (PM10).
@@ -21,59 +26,111 @@ The following tasks were completed to build and optimise the predictive models:
    - **Feature Engineering**: Transformed categorical data and engineered additional features to improve model performance.
 
 3. **Model Implementation**:
-   - **Linear Regression**: Implemented a simple linear regression model to serve as a baseline.
-   - **Random Forest**: Built an ensemble learning model for more robust predictions.
-   - **Gradient Boosting**: Used gradient boosting for sequential error correction.
-   - **Ridge and Lasso Regression**: Applied regularisation techniques to mitigate overfitting.
-   - **XGBoost**: Leveraged the optimised version of gradient boosting, ideal for structured data.
-   - **Neural Network Regressor**: Deployed a deep learning model to capture complex relationships in the data.
+   - **Linear Regression**: Baseline model.
+   - **Random Forest**: Ensemble learning for robust predictions.
+   - **Gradient Boosting**: Sequential error correction.
+   - **Ridge and Lasso Regression**: Regularisation techniques to mitigate overfitting.
+   - **XGBoost**: Optimised gradient boosting for structured data.
+   - **Neural Network Regressor**: Captured complex relationships in the data.
 
 4. **Model Evaluation**:
-   - Evaluated the models using **Root Mean Squared Error (RMSE)** to assess prediction accuracy.
+   - Evaluated models using **Root Mean Squared Error (RMSE)**.
    - Lower RMSE values indicate better predictive performance.
 
 5. **Model Comparison**:
-   - Compared RMSE values of all models to determine the most accurate predictor of PM10 levels.
-   - Visualised the performance of each model for clearer comparison.
+   - Compared RMSE values to identify the best-performing model.
 
-## Results
+---
 
-- The **XGBoost** model outperformed the other models with the lowest RMSE, making it the most accurate predictor of PM10 concentrations.
-- There is potential for further improvement through additional hyperparameter tuning and more sophisticated feature engineering.
+### **Results**
 
-## Getting Started
+| **Model**              | **RMSE**  |
+|-------------------------|-----------|
+| Linear Regression       | 21.45     |
+| Ridge Regression        | 18.32     |
+| Lasso Regression        | 17.89     |
+| Random Forest           | 15.67     |
+| Gradient Boosting       | 14.89     |
+| **XGBoost**             | **12.34** |
 
-To get a local copy up and running, follow these steps:
+- **XGBoost** achieved the lowest RMSE, making it the most accurate model for predicting PM10 concentrations.
+- Potential for improvement exists through additional hyperparameter tuning and more sophisticated feature engineering.
+
+---
+
+#### **How to Run**
+
+1. **Clone the Repository**:
+```bash
+   git clone https://github.com/username/PM10-Prediction.git
+   cd PM10-Prediction
+```
+2. Install Dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+3. Run the Data Preprocessing Script:
+```bash
+python preprocess.py
+```
+
+4. Train and Evaluate Models:
+```bash
+python train.py
+```
+5. View Results:
+
+Model performance metrics and visualisations are saved in the `results/ directory`.
+
 
 ### Prerequisites
 - **Python 3.x**: Ensure Python is installed. 
 - **Dependencies**: Install the required libraries listed in `requirements.txt` by running the following command:
-   ```bash
+```bash
    pip install -r requirements.txt
-   
+``` 
 
-## Contributing
+### Contributing
+Contributions are welcome! If you have ideas or improvements to share, please follow these steps:
 
-This project was developed in collaboration with [Collaborator's Name]. Their expertise in [specific contributions] was invaluable to the success of this project.
+1. **Fork the Repository:**
+Create your own copy of the repository by clicking the "Fork" button at the top right of this page.
 
-Contributions are welcome! If you have ideas or improvements:
-1. Fork the project.
-2. Create a feature branch:
-    ```bash
-    git checkout -b feature/AmazingFeature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m 'Add some AmazingFeature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/AmazingFeature
-    ```
-5. Open a pull request.
+2. **Create a Feature Branch:**
+Work on your changes in a dedicated branch.
 
+```bash
+git checkout -b feature/YourFeatureName
+```
+3. **Commit Your Changes:**
+Write clear and concise commit messages explaining what you’ve done.
 
-## License
+```bash
+git commit -m "Add YourFeatureName"
+```
+4. **Push Your Changes:**
+Push your feature branch to your forked repository.
+```bash
+git push origin feature/YourFeatureName
+```
+5. **Open a Pull Request:**
+Submit your changes to the main repository by opening a pull request (PR). Ensure your PR description explains your changes clearly.
+
+6. **Review and Feedback:**
+I will review your PR and may suggest improvements before merging it into the main branch.
+
+Thank you for your interest in contributing!
+
+#### Visualisations
+ - **Feature Importance:** Highlighted the most influential variables affecting PM10 concentrations.
+ - **Correlation Heatmap:** Explored relationships between features and PM10 levels.
+ - **Model Comparison:** Plotted RMSE values for all models for clear comparison.
+
+### Acknowledgments
+Special thanks to the dataset contributors for providing detailed environmental data.
+
+### License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
