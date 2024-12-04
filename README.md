@@ -1,6 +1,6 @@
-### **Prediction of Air Pollution (PM10 Levels) in London, UK**
+## Predictive Analytics for PM10 Pollution: Time-Series Forecasting with LSTMs
 
-#### **Project Overview**
+#### **Overview**
 This project aims to predict air pollution levels, specifically **PM10 concentrations**, in London using various **machine learning (ML)** techniques. Accurate forecasting of pollution levels is crucial for public health and urban planning. The dataset used for this project is the **"London Atmospheric Emissions Inventory 2013"**, which includes detailed environmental and monitoring data. The main goal is to develop and optimise predictive models and evaluate their performance using **Root Mean Squared Error (RMSE)** as the primary evaluation metric. 
 
 - **Dataset**: [London Atmospheric Emissions Inventory 2013](https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2013)
