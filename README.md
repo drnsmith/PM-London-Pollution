@@ -100,6 +100,17 @@ I will review your PR and may suggest improvements before merging it into the ma
 
 Thank you for your interest in contributing!
 
+---
+## Repository History Cleaned
+
+As part of preparing this repository for collaboration, its commit history has been cleaned. This action ensures a more streamlined project for contributors and removes outdated or redundant information in the history. 
+
+The current state reflects the latest progress as of 24/01/2025.
+
+For questions regarding prior work or additional details, please contact the author.
+
+---
+
 ### Acknowledgments
 Special thanks to the dataset contributors for providing detailed environmental data.
 
